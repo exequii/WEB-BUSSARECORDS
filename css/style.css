@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(61, 61, 180, 0.616);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header nav{
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    
+}
