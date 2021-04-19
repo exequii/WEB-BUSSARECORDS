@@ -3,19 +3,67 @@
     padding: 0;
 }
 
+/******************************************* HEADER ***********************************************/
+
 header{
-    background-color: rgba(61, 61, 180, 0.616);
+    background-color: rgba(40, 40, 204, 0.89);
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header nav{
-    width: 100%;
+    width: 50%;
 }
 
 header nav ul{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    list-style: none;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/************************************* CUERPO ********************************************/
+
+section{
+    height: 500px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/******************************************* FOOTER ****************************************/
+
+footer{
+    height: 400px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+footer ul{
+    text-decoration: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
 }
